@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "project002"
+version = "0.1.0"
+description = ""
+authors = ["Alexandre de Jesus <alexandre.miranda@grupoicts.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.1"
+sqlalchemy = "^2.0.35"
+psycopg-binary = "^3.2.3"
+pytest = "^8.3.3"
+alembic = "^1.13.3"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

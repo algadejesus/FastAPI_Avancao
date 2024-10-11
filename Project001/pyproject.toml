@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "project001"
+version = "0.1.0"
+description = "Microservice conversor de moeda."
+authors = ["Alexandre de Jesus <alexandre.miranda@grupoicts.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+requests = "^2.32.3"
+aiohttp = "^3.10.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
